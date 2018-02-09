@@ -1,0 +1,52 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.objectsContainer {
+    float: left;
+    padding: 20px;
+    margin: 5px;
+    background-color: #F0F0F0;
+    border: 1px solid gray;
+}
+
+#circlesContainer {
+    position: relative;
+}
+
+#rectContainer {
+    position: relative;
+}
+
+#linesContainer {
+    position: relative;
+}
+
+#transformContainer {
+    position: relative;
+}
+
+#circlesHeading {
+    position: absolute;
+    right: 30px;
+    top: 0px;
+}
+
+#rectHeading {
+    position: absolute;
+    right: 30px;
+    bottom: 0px;
+}
+
+#linesHeading {
+    position: absolute;
+    left: 10px;
+    bottom: 70px;
+}
+
+#transformHeading {
+    position: absolute;
+    left: 150px;
+    bottom: 5px;
+}
